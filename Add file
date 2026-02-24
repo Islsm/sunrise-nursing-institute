@@ -1,0 +1,17 @@
+sunrise-nursing-institute
+│
+├── index.html        (Home)
+├── about.html        (About + Principal)
+├── academic.html     (Academic Info)
+├── admission.html    (Admission)
+├── notice.html       (Notice Board)
+├── gallery.html      (Gallery)
+├── contact.html      (Contact)
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── main.js
+│
+└── images/
