@@ -1,6 +1,64 @@
 sunrise-nursing-institute
 │
-├── index.html        (Home)
+├── index.html        (<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>Sunrise Nursing Institute</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+📞 +880 1762-265000 | ✉ sunrisenursing.dinajpur@gmail.com
+</div>
+
+<header>
+<div class="logo">Sunrise Nursing Institute</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="academic.html">Academic</a></li>
+<li><a href="admission.html">Admission</a></li>
+<li><a href="notice.html">Notice</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Sunrise Nursing Institute</h1>
+<p>সেবা, শিক্ষা ও উন্নয়ন</p>
+</section>
+
+<section class="welcome">
+<h2>Welcome Message</h2>
+<p>
+Sunrise Nursing Institute একটি মানসম্মত নার্সিং শিক্ষা প্রতিষ্ঠান।
+Diploma in Nursing Science & Midwifery কোর্স পরিচালিত হয়।
+</p>
+</section>
+
+<section class="notice-board">
+<h2>Notice Board</h2>
+<ul>
+<li>📌 ২০২৬ শিক্ষাবর্ষে ভর্তি বিজ্ঞপ্তি</li>
+<li>📌 ক্লাস রুটিন প্রকাশিত</li>
+<li>📌 পরীক্ষার ফরম পূরণ</li>
+</ul>
+</section>
+
+<footer>
+<p>
+© 2026 Sunrise Nursing Institute <br>
+Munshipara, Sodor Dinajpur, Rangpur, Bangladesh
+</p>
+</footer>
+
+</body>
+</html>)
 ├── about.html        (About + Principal)
 ├── academic.html     (Academic Info)
 ├── admission.html    (Admission)
@@ -10,6 +68,65 @@ sunrise-nursing-institute
 │
 ├── css/
 │   └── style.css
+body{
+margin:0;
+font-family:Arial;
+background:#f5f5f5;
+}
+
+.topbar{
+background:#003366;
+color:#fff;
+padding:6px;
+text-align:center;
+font-size:14px;
+}
+
+header{
+background:#0059b3;
+color:white;
+display:flex;
+justify-content:space-between;
+padding:15px 30px;
+align-items:center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:15px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:#004080;
+color:white;
+padding:80px;
+text-align:center;
+}
+
+section{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:5px;
+}
+
+.notice-board ul li{
+padding:6px 0;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
 │
 ├── js/
 │   └── main.js
